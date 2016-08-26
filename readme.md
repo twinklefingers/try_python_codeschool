@@ -19,8 +19,6 @@ the above lines of inputed code would yield
 ```
 >>> 195
 ```
-Today I learned about Python:
-
 2016/08/24
 
 Python takes strings. Concatenation works the same way that it does is JS.
@@ -29,5 +27,6 @@ print to console using print()
 
 use str() when printing things to console to change anything into a string,
 such as a number that you want to continue to store as a variable.
-
-use /n for a new line and /t for an indent or tab
+```
+#use \n for a new line and \t for an indent or tab
+```
