@@ -31,4 +31,30 @@ such as a number that you want to continue to store as a variable.
 #use \n for a new line and \t for an indent or tab
 ```
 
-Unable to commit more than this tonight.
+2016/08/27
+
+find index in an string using [ ]
+
+use
+```
+print(len(variableName))
+```
+
+to find length of a given string in a variable
+
+slices can access parts of strings using a semi colon between the numbers
+```
+>>> word = Python
+>>> word[2:5]
+```
+this would print out "tho"
+
+shortcuts:
+```
+>>> word[:2]
+```
+would print "Py"
+```
+ >>> word[2:]
+ ```
+ would print "on"
