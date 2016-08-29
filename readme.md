@@ -58,3 +58,12 @@ would print "Py"
  >>> word[2:]
  ```
  would print "on"
+ ```
+ word = 'Python'
+
+first = word[0]
+rest = word[1:]
+result = rest + '-' + first + 'y'
+print(result)
+```
+print result would yield "ython-Py"
