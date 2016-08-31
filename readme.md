@@ -68,4 +68,35 @@ print(result)
 ```
 print result would yield "ython-Py"
 
-Commit! 
+2016/08/30
+operators:
+```
+< less than
+<= less than or equal
+== equal
+>= greater than or equal
+> greater than
+!= not equal
+
+= variable assignment
+True/False booleans
+```
+conditional statements syntax:
+```
+rain_speed = 6
+if rain_speed < 5:
+    print("Just a Scotch mist")
+else:
+    print("It's a real Cow-quaker out there")
+```
+If the condition is not met, the code will not run. The else statement offers a programmed answer if the condition is not met.
+
+Anything indented/after the conditional statement will run.
+```
+rain_speed = 6
+if rain_speed < 5:
+    print("the rain speed is under 5")    << the indented code block will not run
+print("the rain speed is rather fast")    << this line runs
+```
+Python is crazy particular about 'whitespace'.
+PEP 8 Style Guide recommends 4 spaces per indent/tab
